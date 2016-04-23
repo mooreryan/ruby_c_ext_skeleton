@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rake compile && mv lib/ruby_c_ext.bundle lib/ruby_c_ext/ && rake spec
